@@ -99,7 +99,7 @@ layout: default
                     owner: 'meichuanyi',
                     admin: ['meichuanyi'],
                     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-                    id: md5(gitalk),
+                    id: md5(window.location.pathname),
                     });
                     gitalk.render('gitalk-container');
                 </script>
