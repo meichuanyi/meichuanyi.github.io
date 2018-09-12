@@ -93,13 +93,13 @@ layout: default
                 <script src="{{ site.baseurl }}/js/md5.min.js"></script>
                 <script type="text/javascript">
                     var gitalk = new Gitalk({
-                    clientID: '{{site.gitalk.clientID}}',
-                    clientSecret: '{{site.gitalk.clientSecret}}',
-                    repo: '{{site.gitalk.repo}}',
-                    owner: '{{site.gitalk.owner}}',
-                    admin: ['{{site.gitalk.admin}}'],
+                    clientID: 'b04158b2baa12bee23e1',
+                    clientSecret: 'd04bcedbba884f4f3d300e17de5589112b108f53',
+                    repo: 'meichuanyi',
+                    owner: 'meichuanyi',
+                    admin: ['meichuanyi'],
                     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-                    id: md5(location.pathname),
+                    id: md5(gitalk),
                     });
                     gitalk.render('gitalk-container');
                 </script>
